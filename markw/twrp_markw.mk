@@ -15,7 +15,7 @@
 #
 
 # Specify phone tech before including full_phone
-$(call inherit-product, vendor/twrp/config/gsm.mk)
+#$(call inherit-product, vendor/twrp/config/gsm.mk)
 
 $(call inherit-product, device/xiaomi/markw/full_markw.mk)
 
